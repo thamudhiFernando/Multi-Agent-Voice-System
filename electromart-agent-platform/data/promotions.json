@@ -1,0 +1,92 @@
+[
+  {
+    "id": "PROMO001",
+    "name": "New Year Tech Sale",
+    "description": "Start the year right with up to 30% off on selected electronics",
+    "discount_type": "percentage",
+    "discount_value": 30,
+    "applicable_categories": ["Phones", "Laptops", "TVs"],
+    "start_date": "2025-01-01",
+    "end_date": "2025-01-31",
+    "status": "active",
+    "code": "NEWYEAR30"
+  },
+  {
+    "id": "PROMO002",
+    "name": "Student Discount Program",
+    "description": "Exclusive 15% discount for students with valid student ID",
+    "discount_type": "percentage",
+    "discount_value": 15,
+    "applicable_categories": ["Laptops", "Tablets", "Accessories"],
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "status": "active",
+    "code": "STUDENT15",
+    "requirements": "Valid student ID required"
+  },
+  {
+    "id": "PROMO003",
+    "name": "Audio Bundle Deal",
+    "description": "Buy any headphones and get 25% off on portable speakers",
+    "discount_type": "percentage",
+    "discount_value": 25,
+    "applicable_categories": ["Audio"],
+    "start_date": "2025-01-15",
+    "end_date": "2025-02-15",
+    "status": "active",
+    "code": "AUDIOBUNDLE",
+    "requirements": "Purchase headphones to qualify"
+  },
+  {
+    "id": "PROMO004",
+    "name": "Loyalty Rewards Program",
+    "description": "Earn 5% cashback on every purchase, redeemable on future orders",
+    "discount_type": "cashback",
+    "discount_value": 5,
+    "applicable_categories": ["All"],
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "status": "active",
+    "code": "LOYALTY5",
+    "requirements": "Join ElectroMart Rewards program (free)"
+  },
+  {
+    "id": "PROMO005",
+    "name": "Free Shipping Weekend",
+    "description": "Free standard shipping on all orders over $50",
+    "discount_type": "free_shipping",
+    "discount_value": 0,
+    "applicable_categories": ["All"],
+    "start_date": "2025-01-25",
+    "end_date": "2025-01-28",
+    "status": "active",
+    "code": "FREESHIP",
+    "requirements": "Minimum order value $50"
+  },
+  {
+    "id": "PROMO006",
+    "name": "Gaming Week Special",
+    "description": "Save $200 on gaming laptops and get a free gaming mouse",
+    "discount_type": "fixed_amount",
+    "discount_value": 200,
+    "applicable_categories": ["Laptops"],
+    "start_date": "2025-02-01",
+    "end_date": "2025-02-07",
+    "status": "upcoming",
+    "code": "GAMINGWEEK",
+    "requirements": "Only on gaming laptops"
+  },
+  {
+    "id": "PROMO007",
+    "name": "Trade-In Bonus",
+    "description": "Get up to $500 extra when you trade in your old device",
+    "discount_type": "trade_in",
+    "discount_value": 500,
+    "applicable_categories": ["Phones", "Laptops", "Tablets"],
+    "start_date": "2025-01-01",
+    "end_date": "2025-03-31",
+    "status": "active",
+    "code": "TRADEIN500",
+    "requirements": "Device must be in working condition"
+  }
+]

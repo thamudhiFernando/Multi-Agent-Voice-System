@@ -1,0 +1,460 @@
+[
+  {
+    "id": "PROD001",
+    "name": "iPhone 15 Pro",
+    "category": "Phones",
+    "brand": "Apple",
+    "price": 999.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 45,
+    "specs": {
+      "display": "6.1-inch Super Retina XDR",
+      "processor": "A17 Pro chip",
+      "storage": "128GB",
+      "camera": "48MP Main, 12MP Ultra Wide",
+      "battery": "Up to 23 hours video playback",
+      "color": "Natural Titanium"
+    },
+    "description": "Latest iPhone with titanium design and advanced camera system"
+  },
+  {
+    "id": "PROD002",
+    "name": "Samsung Galaxy S24 Ultra",
+    "category": "Phones",
+    "brand": "Samsung",
+    "price": 1199.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 32,
+    "specs": {
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "processor": "Snapdragon 8 Gen 3",
+      "storage": "256GB",
+      "camera": "200MP Main, 50MP Periscope",
+      "battery": "5000mAh",
+      "color": "Titanium Black"
+    },
+    "description": "Premium Android flagship with S Pen and powerful AI features"
+  },
+  {
+    "id": "PROD003",
+    "name": "iPhone 15",
+    "category": "Phones",
+    "brand": "Apple",
+    "price": 799.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 78,
+    "specs": {
+      "display": "6.1-inch Super Retina XDR",
+      "processor": "A16 Bionic chip",
+      "storage": "128GB",
+      "camera": "48MP Main, 12MP Ultra Wide",
+      "battery": "Up to 20 hours video playback",
+      "color": "Black"
+    },
+    "description": "Powerful iPhone with great camera and all-day battery"
+  },
+  {
+    "id": "PROD004",
+    "name": "MacBook Pro 14-inch M3",
+    "category": "Laptops",
+    "brand": "Apple",
+    "price": 1599.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 23,
+    "specs": {
+      "display": "14.2-inch Liquid Retina XDR",
+      "processor": "Apple M3 chip",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "graphics": "10-core GPU",
+      "battery": "Up to 17 hours",
+      "color": "Space Black"
+    },
+    "description": "Professional laptop with stunning display and exceptional performance"
+  },
+  {
+    "id": "PROD005",
+    "name": "Dell XPS 15",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 1399.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 18,
+    "specs": {
+      "display": "15.6-inch FHD+ InfinityEdge",
+      "processor": "Intel Core i7-13700H",
+      "ram": "16GB DDR5",
+      "storage": "512GB SSD",
+      "graphics": "NVIDIA GeForce RTX 4050",
+      "battery": "Up to 13 hours",
+      "color": "Platinum Silver"
+    },
+    "description": "Premium Windows laptop for creators and professionals"
+  },
+  {
+    "id": "PROD006",
+    "name": "ASUS ROG Strix G16",
+    "category": "Laptops",
+    "brand": "ASUS",
+    "price": 1449.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 15,
+    "specs": {
+      "display": "16-inch FHD+ 165Hz",
+      "processor": "Intel Core i7-13650HX",
+      "ram": "16GB DDR5",
+      "storage": "1TB SSD",
+      "graphics": "NVIDIA GeForce RTX 4060",
+      "battery": "Up to 8 hours",
+      "color": "Eclipse Gray"
+    },
+    "description": "Gaming laptop with high refresh rate display and powerful graphics"
+  },
+  {
+    "id": "PROD007",
+    "name": "HP Pavilion Gaming Laptop",
+    "category": "Laptops",
+    "brand": "HP",
+    "price": 899.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 27,
+    "specs": {
+      "display": "15.6-inch FHD 144Hz",
+      "processor": "AMD Ryzen 5 7535HS",
+      "ram": "8GB DDR5",
+      "storage": "512GB SSD",
+      "graphics": "NVIDIA GeForce RTX 3050",
+      "battery": "Up to 7 hours",
+      "color": "Shadow Black"
+    },
+    "description": "Affordable gaming laptop for casual gamers and students"
+  },
+  {
+    "id": "PROD008",
+    "name": "Samsung 65-inch QLED 4K Smart TV",
+    "category": "TVs",
+    "brand": "Samsung",
+    "price": 1299.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 12,
+    "specs": {
+      "display": "65-inch QLED 4K",
+      "resolution": "3840 x 2160",
+      "refresh_rate": "120Hz",
+      "hdr": "Quantum HDR",
+      "smart_platform": "Tizen",
+      "ports": "4 HDMI 2.1",
+      "audio": "Dolby Atmos"
+    },
+    "description": "Premium QLED TV with brilliant colors and smart features"
+  },
+  {
+    "id": "PROD009",
+    "name": "LG 55-inch OLED 4K Smart TV",
+    "category": "TVs",
+    "brand": "LG",
+    "price": 1499.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 8,
+    "specs": {
+      "display": "55-inch OLED 4K",
+      "resolution": "3840 x 2160",
+      "refresh_rate": "120Hz",
+      "hdr": "Dolby Vision IQ",
+      "smart_platform": "webOS",
+      "ports": "4 HDMI 2.1",
+      "audio": "Dolby Atmos"
+    },
+    "description": "Stunning OLED TV with perfect blacks and gaming features"
+  },
+  {
+    "id": "PROD010",
+    "name": "Sony 43-inch 4K Smart TV",
+    "category": "TVs",
+    "brand": "Sony",
+    "price": 499.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 35,
+    "specs": {
+      "display": "43-inch LED 4K",
+      "resolution": "3840 x 2160",
+      "refresh_rate": "60Hz",
+      "hdr": "HDR10",
+      "smart_platform": "Google TV",
+      "ports": "3 HDMI",
+      "audio": "Dolby Audio"
+    },
+    "description": "Perfect 4K TV for small apartments and bedrooms"
+  },
+  {
+    "id": "PROD011",
+    "name": "Sony WH-1000XM5",
+    "category": "Audio",
+    "brand": "Sony",
+    "price": 399.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 42,
+    "specs": {
+      "type": "Over-ear Wireless",
+      "noise_cancellation": "Industry-leading ANC",
+      "battery": "Up to 30 hours",
+      "connectivity": "Bluetooth 5.2",
+      "features": "Multipoint connection, LDAC",
+      "color": "Black"
+    },
+    "description": "Premium noise-cancelling headphones with exceptional sound quality"
+  },
+  {
+    "id": "PROD012",
+    "name": "Apple AirPods Pro (2nd Gen)",
+    "category": "Audio",
+    "brand": "Apple",
+    "price": 249.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 67,
+    "specs": {
+      "type": "In-ear Wireless",
+      "noise_cancellation": "Active Noise Cancellation",
+      "battery": "Up to 6 hours (ANC on)",
+      "connectivity": "Bluetooth 5.3",
+      "features": "Spatial Audio, Adaptive Transparency",
+      "color": "White"
+    },
+    "description": "Premium wireless earbuds with adaptive audio features"
+  },
+  {
+    "id": "PROD013",
+    "name": "Bose QuietComfort Earbuds II",
+    "category": "Audio",
+    "brand": "Bose",
+    "price": 299.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 28,
+    "specs": {
+      "type": "In-ear Wireless",
+      "noise_cancellation": "CustomTune ANC",
+      "battery": "Up to 6 hours",
+      "connectivity": "Bluetooth 5.3",
+      "features": "Personalized ANC, IPX4 water resistant",
+      "color": "Triple Black"
+    },
+    "description": "Earbuds with personalized noise cancellation"
+  },
+  {
+    "id": "PROD014",
+    "name": "Sonos Arc Soundbar",
+    "category": "Audio",
+    "brand": "Sonos",
+    "price": 899.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 14,
+    "specs": {
+      "type": "Soundbar",
+      "channels": "5.0.2",
+      "dolby_atmos": "Yes",
+      "connectivity": "HDMI eARC, WiFi",
+      "voice_assistant": "Alexa, Google Assistant",
+      "color": "Black"
+    },
+    "description": "Premium soundbar with immersive Dolby Atmos sound"
+  },
+  {
+    "id": "PROD015",
+    "name": "JBL Flip 6",
+    "category": "Audio",
+    "brand": "JBL",
+    "price": 129.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 51,
+    "specs": {
+      "type": "Portable Bluetooth Speaker",
+      "battery": "Up to 12 hours",
+      "waterproof": "IP67",
+      "connectivity": "Bluetooth 5.1",
+      "features": "PartyBoost",
+      "color": "Black"
+    },
+    "description": "Portable speaker with powerful sound and waterproof design"
+  },
+  {
+    "id": "PROD016",
+    "name": "iPad Pro 12.9-inch M2",
+    "category": "Tablets",
+    "brand": "Apple",
+    "price": 1099.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 19,
+    "specs": {
+      "display": "12.9-inch Liquid Retina XDR",
+      "processor": "Apple M2 chip",
+      "storage": "128GB",
+      "camera": "12MP Wide, 10MP Ultra Wide",
+      "connectivity": "WiFi 6E",
+      "color": "Space Gray"
+    },
+    "description": "Professional tablet with desktop-class performance"
+  },
+  {
+    "id": "PROD017",
+    "name": "Samsung Galaxy Tab S9",
+    "category": "Tablets",
+    "brand": "Samsung",
+    "price": 799.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 24,
+    "specs": {
+      "display": "11-inch Dynamic AMOLED 2X",
+      "processor": "Snapdragon 8 Gen 2",
+      "storage": "128GB",
+      "camera": "13MP Wide, 8MP Ultra Wide",
+      "connectivity": "WiFi 6E",
+      "color": "Graphite"
+    },
+    "description": "Premium Android tablet with S Pen included"
+  },
+  {
+    "id": "PROD018",
+    "name": "Logitech MX Master 3S",
+    "category": "Accessories",
+    "brand": "Logitech",
+    "price": 99.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 73,
+    "specs": {
+      "type": "Wireless Mouse",
+      "sensor": "8000 DPI",
+      "battery": "Up to 70 days",
+      "connectivity": "Bluetooth, USB receiver",
+      "features": "Multi-device, Quiet clicks",
+      "color": "Graphite"
+    },
+    "description": "Premium wireless mouse for productivity"
+  },
+  {
+    "id": "PROD019",
+    "name": "Keychron K8 Pro",
+    "category": "Accessories",
+    "brand": "Keychron",
+    "price": 109.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 38,
+    "specs": {
+      "type": "Mechanical Keyboard",
+      "layout": "TKL (87 keys)",
+      "switches": "Hot-swappable",
+      "connectivity": "Wireless/Wired",
+      "features": "RGB backlight, QMK/VIA support",
+      "color": "Black"
+    },
+    "description": "Wireless mechanical keyboard for Mac and Windows"
+  },
+  {
+    "id": "PROD020",
+    "name": "Anker 747 Power Bank",
+    "category": "Accessories",
+    "brand": "Anker",
+    "price": 149.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 56,
+    "specs": {
+      "capacity": "25600mAh (87Wh)",
+      "max_output": "87W",
+      "ports": "2 USB-C, 1 USB-A",
+      "features": "Power Delivery 3.0, Fast charging",
+      "color": "Black"
+    },
+    "description": "High-capacity power bank for laptops and devices"
+  },
+  {
+    "id": "PROD021",
+    "name": "Google Pixel 8 Pro",
+    "category": "Phones",
+    "brand": "Google",
+    "price": 999.99,
+    "stock_status": "low_stock",
+    "stock_quantity": 5,
+    "specs": {
+      "display": "6.7-inch LTPO OLED",
+      "processor": "Google Tensor G3",
+      "storage": "128GB",
+      "camera": "50MP Main, 48MP Telephoto",
+      "battery": "5050mAh",
+      "color": "Obsidian"
+    },
+    "description": "Google's flagship with advanced AI photography features"
+  },
+  {
+    "id": "PROD022",
+    "name": "MSI Katana 15",
+    "category": "Laptops",
+    "brand": "MSI",
+    "price": 1299.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 11,
+    "specs": {
+      "display": "15.6-inch FHD 144Hz",
+      "processor": "Intel Core i7-13620H",
+      "ram": "16GB DDR5",
+      "storage": "512GB SSD",
+      "graphics": "NVIDIA GeForce RTX 4050",
+      "battery": "Up to 6 hours",
+      "color": "Black"
+    },
+    "description": "Gaming laptop with sleek design and solid performance"
+  },
+  {
+    "id": "PROD023",
+    "name": "TCL 50-inch 4K QLED TV",
+    "category": "TVs",
+    "brand": "TCL",
+    "price": 449.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 41,
+    "specs": {
+      "display": "50-inch QLED 4K",
+      "resolution": "3840 x 2160",
+      "refresh_rate": "60Hz",
+      "hdr": "Dolby Vision",
+      "smart_platform": "Google TV",
+      "ports": "3 HDMI",
+      "audio": "Dolby Atmos"
+    },
+    "description": "Budget-friendly QLED TV with great features"
+  },
+  {
+    "id": "PROD024",
+    "name": "Beats Studio Pro",
+    "category": "Audio",
+    "brand": "Beats",
+    "price": 349.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 33,
+    "specs": {
+      "type": "Over-ear Wireless",
+      "noise_cancellation": "Active Noise Cancelling",
+      "battery": "Up to 40 hours",
+      "connectivity": "Bluetooth 5.3",
+      "features": "Spatial Audio, USB-C audio",
+      "color": "Black"
+    },
+    "description": "Premium headphones with lossless audio support"
+  },
+  {
+    "id": "PROD025",
+    "name": "Amazon Fire TV Stick 4K Max",
+    "category": "Accessories",
+    "brand": "Amazon",
+    "price": 59.99,
+    "stock_status": "in_stock",
+    "stock_quantity": 94,
+    "specs": {
+      "resolution": "4K Ultra HD",
+      "processor": "Quad-core 1.8 GHz",
+      "storage": "16GB",
+      "connectivity": "WiFi 6E",
+      "features": "Alexa Voice Remote, Dolby Atmos",
+      "color": "Black"
+    },
+    "description": "Streaming device with 4K and WiFi 6E support"
+  }
+]

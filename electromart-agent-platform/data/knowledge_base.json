@@ -1,0 +1,145 @@
+{
+  "technical_support" : [
+    {
+      "id" : "TS001",
+      "category" : "Troubleshooting",
+      "question" : "My laptop won't turn on",
+      "answer" : "Try these steps: 1) Check if the laptop is charged - connect the power adapter and wait 10 minutes. 2) Remove any external devices. 3) Press and hold the power button for 30 seconds to drain residual power. 4) Try turning it on again. If it still doesn't work, the battery or power adapter may be faulty.",
+      "tags" : ["laptop", "power", "troubleshooting"]
+    },
+    {
+      "id" : "TS002",
+      "category" : "Troubleshooting",
+      "question" : "My phone screen is cracked",
+      "answer" : "We offer screen repair services. Bring your device to any ElectroMart store or mail it to our repair center. Repair typically takes 2-3 business days. Cost varies by device model. If your device is under warranty and the damage is covered, repairs may be free or discounted.",
+      "tags" : ["phone", "screen", "repair"]
+    },
+    {
+      "id" : "TS003",
+      "category" : "Troubleshooting",
+      "question" : "How do I connect my soundbar to my TV",
+      "answer" : "For HDMI ARC connection: 1) Connect an HDMI cable from the HDMI ARC/eARC port on your TV to the HDMI OUT port on your soundbar. 2) Enable HDMI-CEC in your TV settings (may be called Anynet+, Simplink, or Bravia Sync). 3) Set TV audio output to external speakers. For optical connection: Connect optical cable between TV optical out and soundbar optical in, then select optical input on soundbar.",
+      "tags" : ["soundbar","TV","connection", "setup"]
+    },
+    {
+      "id" : "TS004",
+      "category" : "Warranty",
+      "question" : "What is covered under warranty",
+      "answer" : "Our standard warranty covers manufacturing defects and hardware failures for 1 year from purchase date. This includes: faulty components, battery issues (if capacity drops below 80% in first year), screen defects, and software issues. NOT covered: physical damage, water damage, unauthorized repairs, cosmetic wear, or accidental damage. Extended warranty plans are available at purchase.",
+      "tags" : ["warranty", "coverage", "policy"]
+    },
+    {
+      "id" : "TS005",
+      "category" : "Warranty",
+      "question" : "How do I check my warranty status",
+      "answer" : "You can check warranty status: 1) Online at electromart.com/warranty by entering your order number or product serial number. 2) Call customer service at 1-800-ELECTRO with your order number. 3) Visit any ElectroMart store with your receipt. Your warranty period starts from the purchase date shown on your receipt.",
+      "tags" : ["warranty", "check", "status"]
+    },
+    {
+      "id" : "TS006",
+      "category" : "Setup",
+      "question" : "Initial setup for smart TV",
+      "answer" : "Smart TV setup: 1) Unbox and place TV on stand or mount. 2) Connect power cable. 3) Turn on TV and select language. 4) Connect to WiFi network. 5) Sign in to or create account for smart TV platform (Samsung Account, LG Account, Google Account, etc.). 6) Run channel scan if using antenna. 7) Download apps you want to use. 8) Adjust picture settings to your preference. Complete setup takes about 15-20 minutes.",
+      "tags" : ["TV", "setup", "smart TV", "installation"]
+    },
+    {
+      "id" : "TS007",
+      "category" : "Troubleshooting",
+      "question" : "Headphones not connecting to device",
+      "answer" : "Bluetooth pairing issues: 1) Turn off Bluetooth on your device and turn it back on. 2) Put headphones in pairing mode (usually hold power button for 5-7 seconds until LED flashes). 3) Forget the device from Bluetooth settings if it was previously paired. 4) Search for new devices and select your headphones. 5) If still not working, reset the headphones (check manual for reset procedure). 6) Charge the headphones fully and try again.",
+      "tags" : ["headphones", "Bluetooth", "connection", "pairing"]
+    },
+    {
+      "id" : "TS008",
+      "category" : "Repair",
+      "question" : "Battery replacement service",
+      "answer" : "We offer battery replacement for most devices. Service includes: 1) Diagnostics to confirm battery needs replacement (free). 2) Genuine or high-quality replacement battery. 3) Professional installation by certified technicians. 4) 90-day warranty on replacement battery. Typical turnaround: same day for phones, 2-3 days for laptops. Prices vary by device model. Book appointment online or visit store.",
+      "tags" : ["battery","replacement","repair","service"]
+    }
+  ],
+  "return_policy": [
+    {
+      "id" : "RP001",
+      "category" : "Returns",
+      "question" : "What is the return policy",
+      "answer" : "ElectroMart offers a 30-day return policy on most products. Items must be in original condition with all accessories, manuals, and packaging. Opened products are accepted but may be subject to a restocking fee (typically 15% for electronics). Some exceptions: opened software, digital downloads, and personalized items cannot be returned. Original receipt required. Refund issued to original payment method within 5-10 business days.",
+      "tags" : ["return","policy","refund"]
+    },
+    {
+      "id" : "RP002",
+      "category" : "Returns",
+      "question" : "How do I return a product",
+      "answer" : "To return a product: 1) Online orders: Visit electromart.com/returns and enter order number. Print prepaid return label. 2) Store purchases: Bring item with receipt to any ElectroMart store. 3) Pack item securely in original or similar box. 4) Attach return label and drop off at carrier location. 5) Track your return online. Refund processed within 5-10 business days of receiving returned item.",
+      "tags" : ["return","process","how to"]
+    },
+    {
+      "id" : "RP003",
+      "category" : "Exchange",
+      "question" : "Can I exchange a product",
+      "answer" : "Yes, exchanges are available within 30 days of purchase. For defective items under warranty, exchanges are free. For non-defective items, you can exchange for: 1) Same product in different color/size - no fee. 2) Different product of equal or greater value - pay the difference. 3) Different product of lesser value - receive store credit for difference. Exchanges can be done in-store or by contacting customer service.",
+      "tags" : ["exchange","policy"]
+    },
+    {
+      "id" : "RP004",
+      "category" : "Refund",
+      "question" : "When will I receive my refund",
+      "answer" : "Refund timeline: 1) In-store returns: Immediate refund to original payment method or store credit. 2) Online returns: 5-10 business days after we receive the returned item. 3) Additional 3-5 business days for refund to appear in your account depending on your bank. You'll receive email confirmation when refund is processed. For faster refunds, consider store credit option which is instant.",
+      "tags" : ["refund","timeline","processing"]
+    }
+  ],
+  "shipping_policy": [
+    {
+      "id": "SP001",
+      "category": "Shipping",
+      "question": "Shipping options and costs",
+      "answer": "Shipping options: 1) Standard (5-7 business days) - $5.99, free on orders over $50. 2) Expedited (2-3 business days) - $12.99. 3) Express (1-2 business days) - $24.99. 4) Same-day delivery available in select cities - $19.99. Large items (TVs, appliances) may have additional shipping fees. Store pickup is free and typically ready in 2-4 hours.",
+      "tags": ["shipping", "cost", "delivery"]
+    },
+    {
+      "id": "SP002",
+      "category": "Shipping",
+      "question": "Order tracking",
+      "answer": "Track your order: 1) Check confirmation email for tracking number (sent within 24 hours of shipment). 2) Visit electromart.com/track and enter order number or tracking number. 3) Sign up for text/email updates for real-time delivery notifications. 4) Contact customer service if you don't receive tracking info within 48 hours of order. Most carriers update tracking info every 24 hours.",
+      "tags": ["tracking", "shipping", "delivery"]
+    },
+    {
+      "id": "SP003",
+      "category": "Shipping",
+      "question": "Change delivery address",
+      "answer": "Address changes: 1) Before shipment: Contact customer service immediately at 1-800-ELECTRO or through live chat. Address can usually be updated if order hasn't shipped. 2) After shipment: Contact carrier directly with tracking number to request address change (may incur fee). 3) If package is already out for delivery, address change not possible - you can refuse delivery for automatic return and re-order to correct address.",
+      "tags": ["address", "delivery", "change"]
+    },
+    {
+      "id": "SP004",
+      "category": "Shipping",
+      "question": "International shipping",
+      "answer": "Currently, ElectroMart ships to: United States (all 50 states), Canada, and Mexico. International shipping rates: Canada ($19.99 standard, 7-10 days), Mexico ($24.99 standard, 10-14 days). Some products have shipping restrictions and cannot be shipped internationally. International orders may be subject to customs duties and taxes (customer responsibility). No expedited international shipping currently available.",
+      "tags": ["international", "shipping", "global"]
+    }
+  ],
+  "store_info": [
+    {
+      "id": "SI001",
+      "category": "Store",
+      "question": "Store hours and locations",
+      "answer": "ElectroMart has 150+ locations nationwide. Store hours: Monday-Saturday 9AM-9PM, Sunday 10AM-7PM. Holiday hours may vary. Find your nearest store at electromart.com/locations or call 1-800-ELECTRO. All stores offer: product demos, expert advice, technical support desk, free workshops, and curbside pickup.",
+      "tags": ["store", "hours", "location"]
+    },
+    {
+      "id": "SI002",
+      "category": "Services",
+      "question": "Services offered",
+      "answer": "ElectroMart services include: 1) Free technical support at our Tech Desk. 2) Device repair and troubleshooting. 3) Setup and installation services (in-home available). 4) Trade-in program for old devices. 5) Price matching guarantee. 6) Extended warranty plans. 7) Business account services. 8) Free workshops and training sessions. 9) Personal shopping appointments. Book services online or visit any store.",
+      "tags": ["services", "support", "offerings"]
+    }
+  ],
+  "loyalty_program": [
+    {
+      "id": "LP001",
+      "category": "Loyalty",
+      "question": "ElectroMart Rewards program",
+      "answer": "Join free: Sign up at electromart.com/rewards or in-store. Benefits: 1) Earn 5% cashback on every purchase. 2) Exclusive early access to sales. 3) Free expedited shipping on all orders. 4) Extended 60-day return policy. 5) Special member pricing. 6) Birthday month 10% bonus cashback. 7) Free tech support priority line. Points never expire. Cashback redeemable on any purchase, minimum $10 redemption.",
+      "tags": ["loyalty", "rewards", "program", "benefits"]
+    }
+  ]
+}
