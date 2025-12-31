@@ -1,8 +1,8 @@
 from datetime import datetime
 from enum import Enum
-from typing import Optional, List
+from typing import Optional, List, Dict, Any
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, EmailStr
 
 
 class MessageRole(str, Enum):
@@ -116,3 +116,125 @@ class ConversationHistory(BaseModel):
     session_id: str
     messages: List[ConversationMessage]
     total_messages: int
+
+
+#Product Schemas
+class ProductSpecs(BaseModel):
+    """Product specifications schema (dynamic fields)"""
+    class Config:
+        #Allow additional fields
+        extra = "allow"
+
+class Product(BaseModel):
+    """Product Information schema"""
+    id: str
+    name: str
+    category: str
+    brand: str
+    price: float
+    stock_status: str
+    stock_quantity: int
+    specs: Dict[str, Any]
+    description: str
+
+
+#Order Schemas
+class OrderItem(BaseModel):
+    """Single Item schema in an order"""
+    product_id: str
+    product_name: str
+    quantity: int
+    price: float
+
+class Order(BaseModel):
+    """Order details schema"""
+    order_id: str
+    customer_email: str
+    customer_name: str
+    order_date: str
+    status: str
+    items: List[OrderItem]
+    total_amount: float
+    shipping_address: str
+    tracking_number: Optional[str] = None
+    currier: Optional[str] = None
+    estimated_delivery: Optional[str] = None
+    shipping_status: str
+
+
+#Promotion Schemas
+class Promotion(BaseModel):
+    """Promotion details schema"""
+    id: str
+    name: str
+    description: str
+    discount_type: str
+    discount_amount: float
+    applicable_category: List[str]
+    start_date: str
+    end_date: str
+    status: str
+    code: str
+    requirements: Optional[str] = None
+
+#Analytics Schemas
+class AgentPerformance(BaseModel):
+    """Agent performance metrics schema"""
+    agent_type: AgentType
+    total_queries: int
+    success_rate: float
+    avg_response_time_ms: float
+    avg_confidence: float
+    total_tokens_used: int
+
+class SystemAnalytics(BaseModel):
+    """Overall System Analytics schema"""
+    total_conversation: int
+    total_messages: int
+    avg_sentiment_score: float
+    agent_performance: List[AgentPerformance]
+    timestamp: datetime
+
+
+#Support Ticket Schemas
+class SupportTicketCreate(BaseModel):
+    """Create Support Ticket Request schema"""
+    session_id: str
+    customer_email: EmailStr
+    issue_type: str
+    priority: str = "medium"
+    description: str
+
+class SupportTicketResponse(BaseModel):
+    """Response schema for Support Ticket endpoint"""
+    ticket_id: str
+    status: str
+    created_at: datetime
+    message: str
+
+
+#Return Request Schemas
+class ReturnRequestCreate(BaseModel):
+    """Create Return Request schema"""
+    session_id: str
+    order_id: str
+    customer_email: EmailStr
+    reason: str
+    notes: Optional[str] = None
+
+class ReturnRequestResponse(BaseModel):
+    """Response schema for Return endpoint"""
+    request_id: str
+    status: str
+    created_at: datetime
+    message: str
+
+
+#Health Check Schemas
+class HealthCheck(BaseModel):
+    """Health check response schema"""
+    status: str
+    version: str
+    timestamp: datetime
+    database_status: str
+    vector_db_status: str
