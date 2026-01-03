@@ -1,7 +1,6 @@
 from datetime import datetime
 from enum import Enum
 from typing import Optional, List, Dict, Any
-
 from pydantic import BaseModel, Field, EmailStr
 
 
@@ -73,7 +72,7 @@ class AgentInfo(BaseModel):
 class SentimentInfo(BaseModel):
     """Sentiment analysis information"""
     label: SentimentLabel
-    score: float = Field(..., ge=1.0, le=1.0, description="Sentiment score")
+    score: float = Field(..., ge=-1.0, le=1.0, description="Sentiment score")
 
 class ChatResponse(BaseModel):
     """Response schema for chat endpoint"""

@@ -3,5 +3,41 @@ fastapi>=0.109.0
 uvicorn[standard]>=0.27.0
 python-multipart>=0.0.6
 python-dotenv>=1.0.0
-loguru
-pydantic-settings
+
+# CrewAI and LangChain (using latest compatible versions)
+crewai>=0.11.0
+crewai-tools
+langchain>=0.1.0
+langchain-openai>=0.0.2
+langchain-community>=0.0.10
+agents
+
+
+# Logging and Monitoring
+loguru>=0.7.2
+
+
+# OpenAI
+openai>=1.10.0
+
+# Vector Database and RAG
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+
+# Database
+sqlalchemy>=2.0.25
+aiosqlite>=0.19.0
+
+# Pydantic for data validation
+pydantic>=2.5.3
+pydantic-settings>=2.1.0
+
+# Sentiment Analysis
+textblob>=0.18.0
+vaderSentiment>=3.3.2
+
+
+# Testing
+pytest>=7.4.4
+pytest-asyncio>=0.23.3
+httpx>=0.26.0

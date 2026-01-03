@@ -1,0 +1,106 @@
+.messageContainer {
+  display: flex;
+  margin-bottom: 1rem;
+
+  &.user {
+    justify-content: flex-end;
+  }
+
+  &.assistant {
+    justify-content: flex-start;
+  }
+}
+
+.messageWrapper {
+  max-width: 70%;
+
+  &.user {
+    order: 2;
+  }
+
+  &.assistant {
+    order: 1;
+  }
+}
+
+.agentBadgeContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.agentBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  .icon {
+    margin-right: 0.25rem;
+  }
+
+  &.sales {
+    background-color: #dbeafe;
+    color: #1e40af;
+  }
+
+  &.marketing {
+    background-color: #f3e8ff;
+    color: #6b21a8;
+  }
+
+  &.technicalSupport {
+    background-color: #ffedd5;
+    color: #c2410c;
+  }
+
+  &.orderLogistics {
+    background-color: #dcfce7;
+    color: #16a34a;
+  }
+
+  &.customerService {
+    background-color: #f3f4f6;
+    color: #1f2937;
+  }
+
+  &.orchestrator {
+    background-color: #e0e7ff;
+    color: #4338ca;
+  }
+}
+
+.timestamp {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.messageContent {
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+
+  &.user {
+    background-color: #2563eb;
+    color: white;
+  }
+
+  &.assistant {
+    background-color: #f3f4f6;
+    color: #111827;
+  }
+
+  p {
+    font-size: 0.875rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin: 0;
+  }
+}
+
+.timestampContainer {
+  text-align: right;
+  margin-top: 0.25rem;
+}

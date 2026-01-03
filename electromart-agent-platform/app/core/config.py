@@ -28,6 +28,7 @@ class Settings(BaseSettings):
 
     # CrewAI Configuration
     CREWAI_TELEMETRY: bool = False
+    ENABLE_ANALYTICS: bool = False
 
     # Vector Database Configuration
     CHROMA_PERSIST_DIRECTORY: str = str(BASE_DIR / "data"/ "chroma_db")

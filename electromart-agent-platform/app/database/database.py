@@ -1,4 +1,6 @@
 from pathlib import Path
+from typing import AsyncGenerator
+
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 from app.core.config import settings
 from app.core.logs import get_logger
@@ -72,3 +74,4 @@ async def close_db():
     except Exception as e:
         logger.error(f"Error closing database connections: {e}")
         raise
+
